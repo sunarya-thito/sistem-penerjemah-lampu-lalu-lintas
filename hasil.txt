@@ -1,0 +1,3 @@
+x, y, width, height, hasil
+1404, 609, 85, 128, hijau
+1675, 618, 87, 131, hijau

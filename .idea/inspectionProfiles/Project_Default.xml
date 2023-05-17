@@ -1,0 +1,18 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="detector.HapusAreaKecilSubProcess.contours" />
+          <option value="detector.HapusAreaKecilProcess.contours" />
+          <option value="detector.PerlihatkanHasilProcess.hasil_deteksi" />
+          <option value="detector.DeteksiWarnaLampuProcess.parent" />
+          <option value="detector.DeteksiWarnaLampuProcess.hasil" />
+          <option value="detector.PerlihatkanHasil.hasil_deteksi" />
+          <option value="super.mouseDoubleClickEvent" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
