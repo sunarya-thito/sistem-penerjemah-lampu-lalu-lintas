@@ -393,7 +393,7 @@ def proses(gambar):
         cv2.rectangle(gambar, (x, y), (x + w, y + h), color, 2)
         # tulis teks hasil deteksi
         cv2.putText(gambar, hasil, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, color, 2)
-    return gambar
+    return gambar, hasil_deteksi
 
 
 def deteksi(gambar):
@@ -408,7 +408,7 @@ def deteksi(gambar):
     modul.tampilkan(img)
     img = modul.m_dilasi_grayscale(img, 5)
     modul.tampilkan(img)
-    img = modul.gaussian_blur_grayscale(img, 19)
+    img = modul.gaussian_blur_grayscale(img, 7)
     modul.tampilkan(img)
     # otus threshold
     _, img = cv2.threshold(img, 150, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
@@ -473,6 +473,6 @@ if __name__ == '__main__':
     path = os.listdir('test')
     for i in range(len(path)):
         gambar = cv2.imread('test/' + path[i])
-        gambar = proses(gambar)
+        gambar, _ = proses(gambar)
         modul.tampilkan(gambar)
     cv2.destroyAllWindows()

@@ -7,6 +7,8 @@ _cascade_path = 'cascade.xml'
 cascade = None
 
 gunakan_library = True
+tampilkan_gambar_tiap_tahap = False
+tampilkan_log = False
 
 _cache_kernel_gaussian = {}
 
@@ -17,11 +19,15 @@ def muat_cascade():
 
 
 def log(message):
+    if not tampilkan_log:
+        return
     print(message)
 
 
 # tidak digunakan di GUInya langsung
 def tampilkan(gambar, as_hsv=False):
+    if not tampilkan_gambar_tiap_tahap:
+        return
     # resize ke 800x600
     gambar = cv2.resize(gambar, (gambar.shape[1] * 600 // gambar.shape[0], 600))
     # tampilkan gambar
