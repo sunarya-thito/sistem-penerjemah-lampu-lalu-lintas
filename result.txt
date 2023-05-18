@@ -1,4 +1,5 @@
-file, jumlah, tak_terdeteksi, false_positive, benar_deteksi, jumlah_terdeteksi, persentase_terdeteksi, persentase_false_positive, akurasi00001.jpg, 1, 0, 0, 1, 1, 100.0, 0.0, 100.0
+file, jumlah, tak_terdeteksi, false_positive, benar_deteksi, jumlah_terdeteksi, persentase_terdeteksi, persentase_false_positive, akurasi
+00001.jpg, 1, 0, 0, 1, 1, 100.0, 0.0, 100.0
 00008.jpg, 2, 2, 0, 0, 0, 0.0, None, None
 00011.jpg, 1, 1, 0, 0, 0, 0.0, None, None
 00012.jpg, 2, 1, 0, 1, 1, 50.0, 0.0, 100.0
