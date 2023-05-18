@@ -6,7 +6,7 @@ import numpy as np
 _cascade_path = 'cascade.xml'
 cascade = None
 
-gunakan_library = False
+gunakan_library = True
 
 _cache_kernel_gaussian = {}
 
