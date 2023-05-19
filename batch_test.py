@@ -34,7 +34,7 @@ overall_false_positive = 0
 jumlah_overall_false_positive = 0
 total = 0
 result_file.write(
-    'file, jumlah, tak_terdeteksi, false_positive, benar_deteksi, jumlah_terdeteksi, persentase_terdeteksi, persentase_false_positive, akurasi')
+    'file, jumlah, tak_terdeteksi, false_positive, benar_deteksi, jumlah_terdeteksi, persentase_terdeteksi, persentase_false_positive, akurasi\n')
 for file in os.listdir(path):
     if file.endswith('.jpg') or file.endswith('.png'):
         if file not in test_images:

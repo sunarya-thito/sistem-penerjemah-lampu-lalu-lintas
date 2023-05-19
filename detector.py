@@ -6,7 +6,6 @@ import numpy as np
 import modul
 
 
-
 def proses_cari_lokasi(controller, image):
     return [
         InputImage(controller, image),

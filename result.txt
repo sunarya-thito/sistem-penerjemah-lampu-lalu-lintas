@@ -786,4 +786,4 @@ file, jumlah, tak_terdeteksi, false_positive, benar_deteksi, jumlah_terdeteksi, 
 Total test: 784
 Akurasi Deteksi Warna: 96.58365261813537
 False Positive Haarcascade: 35.741811175337176
-Akurasi Object Detection Haarcascade: 38.18129661503155
+Akurasi Object Detection Haarcascade: 48.18129661503155
